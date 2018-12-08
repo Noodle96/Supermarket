@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/12/2018, 03:03:03 PM
+    Author     : russel
+*/
+
+
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: 'Alegreya', serif;/*de google fonts*/
+
+}
+
+a.user{
+    text-align: right;
+    
+}
+
+nav.vista{
+   padding: 0px 0px 0px 85px;
+}
+
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menuCSS3 a {
+        display: block;
+        padding: .4em;
+        background-color: #b0a3a0;
+        text-decoration: none;
+        color: #191C26;
+}
+.menuCSS3 a:hover {
+        background-color: #998d8a;
+}
+.menuCSS3 ul li ul {
+        display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+        display: block;
+}
+.menuCSS3 ul li{
+    
+}
